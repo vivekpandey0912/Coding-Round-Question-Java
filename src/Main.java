@@ -12,6 +12,8 @@ public class Main {
 // write a program to print string and array with same method
 class Solution1 {
 
+
+
     public static <T> void printArray(T[] array) {
         for (T element : array) {
             System.out.println(element);
